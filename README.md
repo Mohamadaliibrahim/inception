@@ -223,27 +223,3 @@ Run `docker compose ps` and inspect individual logs to isolate issues.
 * [x] **Subject assets** are stored in `/home/$USER/data/`
 * [x] `docker compose up --build -d` works without manual steps
 
-*Bonus*
-
-* [ ] Redis caching proxy in front of WordPress
-* [ ] Adminer or phpMyAdmin on port 8080
-* [ ] Static website served by a second Nginx instance on port 3000
-* [ ] FTPS service for file uploads
-
----
-
-## Bonus Features
-
-If you choose to implement bonuses, add a `bonus/` directory with separate compose overrides. Document any additional environment variables or ports here.
-
----
-
-## Authors
-
-*Mohamad Ibrahim – [mibrahim@student.42.fr](mailto:mibrahim@student.42.fr)*
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
